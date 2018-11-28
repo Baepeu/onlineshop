@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Order Complete
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col">
+        <div class="alert alert-success" role="alert">Thank you!<br/>
+            Your order has been successfully completed.<br/>
+        Your order number is <strong>{{order.id}}</strong></div>
+
+    </div>
+</div>
+{% endblock %}
